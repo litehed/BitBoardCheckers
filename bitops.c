@@ -101,3 +101,12 @@ unsigned long long GetBitLL(unsigned long long value, int position) {
     if (position < 0 || position >= 64) return 0;
     return (value >> position) & 1ULL;
 }
+
+int CountBitsLL(unsigned long long value) {
+    int count = 0;
+    while (value) {
+        count += value & 1ULL;
+        value >>= 1;
+    }
+    return count;
+}

@@ -23,3 +23,4 @@ void PrintHex(unsigned int value);     // Show in hex
 unsigned long long SetBitLL(unsigned long long value, int position);     // Set bit to 1
 unsigned long long ClearBitLL(unsigned long long value, int position);   // Set bit to 0
 unsigned long long GetBitLL(unsigned long long value, int position);     // Get bit value
+int CountBitsLL(unsigned long long value);

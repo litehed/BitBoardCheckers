@@ -1,5 +1,6 @@
 #include "bitops.h"
 
+// Quick test file to test bitops functions
 int main() {
     unsigned int value = 15;
 
