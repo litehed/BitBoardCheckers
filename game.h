@@ -2,7 +2,7 @@
 
 // Color codes for terminal output
 #define RED "\033[0;31m"
-#define RED_BOLD "\033[1;31m"   // I cant tell if this works or not
+#define RED_BOLD "\033[1;31m"
 #define BLACK "\033[0;30m"
 #define BLACK_BOLD "\033[1;30m"
 #define NONE "\033[0m"
