@@ -85,7 +85,7 @@ int MovePiece(Game* game, char* from, char* to) {
             }
         }
         MakeKing(game, to_pos);
-        printf("Player %d successfully moved from %s to %s\n",
+        printf("Player %d successfully moved from %s to %s\n\n",
                game->current_turn, from, to);
     } else if (move_type == 2) {
         // Jump move
@@ -120,7 +120,8 @@ int MovePiece(Game* game, char* from, char* to) {
         }
         MakeKing(game, to_pos);
         printf(
-            "Player %d jumped from %s to %s and captured player %d's piece!\n",
+            "Player %d jumped from %s to %s and captured player %d's "
+            "piece!\n\n",
             game->current_turn, from, to, game->current_turn == 1 ? 2 : 1);
     } else {
         printf("Invalid move from %s to %s. Try again.\n\n", from, to);
@@ -141,7 +142,7 @@ int BoardToIndex(char* pos) {
 
 int CheckMovement(Game* game, int from, int to) {
     // First get the piece type using the from position and init move and jump
-    // pos
+    // positions
     int piece_type = GetSpotPiece(game, from);
     int move_pos = 0;
     int jump_pos = 0;
