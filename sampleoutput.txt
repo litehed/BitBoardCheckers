@@ -1,0 +1,78 @@
+.\checkers.exe
+Type: 'quit' or 'exit' to end the game
+
+  A B C D E F G H
+8 . o . o . o . o
+7 o . o . o . o .
+6 . o . o . o . o
+5 . . . . . . . .
+4 . . . . . . . .
+3 o . o . o . o .
+2 . o . o . o . o
+1 o . o . o . o .
+Player 1's turn
+Enter piece to move (e.g., A3): A3
+Enter destination (e.g., B4): B4
+Player 1 successfully moved from A3 to B4
+
+--------------------------------------------------
+
+  A B C D E F G H
+8 . o . o . o . o 
+7 o . o . o . o . 
+6 . o . o . o . o 
+5 . . . . . . . . 
+4 . o . . . . . .
+3 . . o . o . o .
+2 . o . o . o . o
+1 o . o . o . o .
+Player 2's turn
+Enter piece to move (e.g., A3): D6
+Enter destination (e.g., B4): C5
+Player 2 successfully moved from D6 to C5
+
+--------------------------------------------------
+
+  A B C D E F G H
+8 . o . o . o . o
+7 o . o . o . o .
+6 . o . . . o . o
+5 . . o . . . . .
+4 . o . . . . . .
+3 . . o . o . o .
+2 . o . o . o . o
+1 o . o . o . o .
+Player 1's turn
+Enter piece to move (e.g., A3): B4
+Enter destination (e.g., B4): C5
+Invalid move from B4 to C5. Try again.
+
+--------------------------------------------------
+
+  A B C D E F G H
+8 . o . o . o . o
+7 o . o . o . o .
+6 . o . . . o . o
+5 . . o . . . . .
+4 . o . . . . . .
+3 . . o . o . o .
+2 . o . o . o . o
+1 o . o . o . o .
+Player 1's turn
+Enter piece to move (e.g., A3): B4
+Enter destination (e.g., B4): D6
+Player 1 jumped from B4 to D6 and captured player 2's piece!
+
+--------------------------------------------------
+
+  A B C D E F G H
+8 . o . o . o . o
+7 o . o . o . o .
+6 . o . o . o . o
+5 . . . . . . . .
+4 . . . . . . . .
+3 . . o . o . o .
+2 . o . o . o . o
+1 o . o . o . o .
+Player 2's turn
+Enter piece to move (e.g., A3):
